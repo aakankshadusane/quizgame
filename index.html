@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Quiz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Language Learning Quiz!!</h1>  
+        <!-- Language Selection -->
+        <div class="language-selection">
+            <div class="rules">               
+                <p>
+                    <span>Rules & Conditons: </span><br>           
+                1.Only the students of computer science are eligible to participate. <br>
+                  2. The questions shall be in the form of multiple choice
+                question etc. <br>
+            </p>
+            </div>
+            
+            <label for="language-select">Select a Language:</label>
+            <select id="language-select">
+                <option value="english">English</option>
+                <option value="hindi">hindi</option>
+                
+                <!-- Add more languages here -->
+            </select>
+            <button id="start-quiz-button">Start Quiz</button>
+            <h2>Question and Answer format is given below:</h2> 
+        </div>
+        
+        <!-- Quiz Container -->
+                      
+                <div class="quiz-container">
+           
+                 <div class="question">
+                
+                 <!-- Display the question here -->
+                <p id="question-text">What is a correct syntax to output "Hello World" in Java?</p>
+            </div>
+            <div class="options">
+                <!-- Display answer options here -->
+                <button class="option" id="option-1">printf("Hello World");</button>
+                <button class="option" id="option-2">echo("Hello World");</button>
+                <button class="option" id="option-3">System.out.println("Hello World");</button>
+            </div>
+            <div class="feedback">
+                <!-- Display feedback for the user's answer here -->
+                <p id="feedback-text"></p>
+            </div>
+            <button class="next-button" id="next-button" style="display: none;">Next</button>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>

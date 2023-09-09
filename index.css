@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 223, 223)
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.container #language-select{
+    margin-top: 10px;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(100, 94, 94);
+}
+
+.language-selection {
+    margin-top: 50px;
+    font-size: 1rem;
+
+}
+
+.language-selection #language-select{
+    padding: 4px;
+}
+
+.language-selection #start-quiz-button{
+    padding: 5px;
+    background: #c7b5d9;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+.quiz-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.language-selection .rules {
+    font-size: 1rem;
+}
+.language-selection .rules span{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#b84242 ;
+} 
+.language-selection .rules h2{
+    color:#e39f6f;
+    font-size: 1rem;
+
+}
